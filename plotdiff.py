@@ -20,6 +20,9 @@ import matplotlib.pyplot as plt
 import subprocess as sp
 from optparse import OptionParser
 import copy
+import warnings
+
+warnings.simplefilter("ignore", FutureWarning)
 
 class nf(float):
     def __repr__(self):
